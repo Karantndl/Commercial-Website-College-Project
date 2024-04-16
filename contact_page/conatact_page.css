@@ -1,0 +1,123 @@
+body{
+    background-color: rgb(248, 246, 246);
+}
+
+
+.search_bar_contact {
+    width: 30%;
+    /* height: 60%; */
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 110%;
+    border-radius: 6px;
+}
+
+.main_container{
+    padding-left: 40%;
+}
+
+.contact_column form {
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: auto; /* Set to auto  */
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    height: 40px;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #5b951b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Add a smooth transition on hover */
+}
+
+input[type="submit"]:hover {
+    background-color: #446b14;
+}
+
+
+label {
+    display: inline-block;
+    margin-right: 10px; /* Add margin between label and input i */
+}
+
+/* individual css*/
+p{
+    font-family: 'Kanit';
+}
+
+.contact_title{
+    font-weight: 900;
+    font-size: 33px;
+    font-family: 'Kanit';
+    margin-top: 5%;
+}
+
+.contact_information{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.contect_infor{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+
+.enquire_form_section{
+    font-weight: 900;
+    font-size: 23px;
+}
+
+
+
+.surname_input{
+margin-left: 1.7%;
+}
+
+.email_input{
+    margin-left: 3%;
+}
+
+.subject_input{
+    margin-left: 2.2%;
+}
+
+.map_container{
+    width: 100%;
+    justify-content: center;
+    align-items:center;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.get_direction{
+    font-weight: 900;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.map_of_brothers:hover{
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.3);
+}

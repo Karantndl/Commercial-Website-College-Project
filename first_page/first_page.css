@@ -1,0 +1,220 @@
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding-top: 4%;
+}
+
+.navigation_div {
+    background-color: rgba(51, 64, 83, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 5%;
+    padding-left: 5%;
+    /* height: 7%; */
+    position: fixed;
+    width: 94%;
+    z-index: 99999;
+    top: 0;
+}
+
+.search_bar {
+    width: 30%;
+    /* height: 40%; */
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 110%;
+    border-radius: 6px;
+}
+
+
+
+.contact_us,
+.register,
+.sign_in {
+    padding: 15px 20px;
+    font-weight: bold;
+    font-size: 1vw; /* Set font size using vw unit */
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.contact_us:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    text-decoration: underline;
+    transition: opacity 0.2s;
+    transition: text-decoration 1s ease;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+.contact_us:active {
+    opacity: 0.6;
+    transition: opacirt 0.2s;
+}
+
+.register:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    text-decoration: underline;
+    transition: opacity 0.2s;
+    transition: text-decoration 1s ease;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+.register:active {
+    opacity: 0.6;
+    transition: opacirt 0.2s;
+}
+
+.sign_in:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    text-decoration: underline;
+    transition: opacity 0.2s;
+    transition: text-decoration 1s ease;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+.sign_in:active {
+    opacity: 0.6;
+    transition: opacirt 0.2s;
+}
+
+
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    padding: 0 5%;
+    background-color: rgba(226, 240, 217, 255);
+}
+
+.div1 {
+    width: 45%;
+    background-color: rgba(226, 240, 217, 255);
+}
+
+.first_pic_product {
+    max-width: 100%;
+    height: auto;
+    margin-top: 60px;
+}
+
+.div2 {
+    width: 45%;
+    background-color: rgba(226, 240, 217, 255);
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.drop_price {
+    height: 130px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.product_of_100 {
+    font-size: 30px;
+    font-family: 'Kanit', Arial, sans-serif;
+    margin-bottom: 60px;
+    font-weight: bold;
+    font-size:2.5vw;
+}
+
+.btn_shop_price_drop {
+    width: 50%;
+    border-radius: 5px;
+    background-color: #5b951b;
+    font-family: 'Kanit';
+    font-size: 37px;
+    font-weight: 500;
+    color: aliceblue;
+    border: none;
+    font-size:2.5vw;
+}
+
+.btn_shop_price_drop:hover{
+    opacity: 0.8;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.btn_shop_price_drop:active{
+    background-color: #4c7c18;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    clear: both;
+    margin-right: 0%;
+}
+
+.column {
+    width: calc(25% - 10px);
+    margin-right: 10px;
+    background-color: rgba(217, 217, 217, 255);
+    border-radius: 7%;
+    text-align: center;
+}
+
+.column:hover {
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.3);
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.column img {
+    max-width: 100%;
+    height: 60%;
+    object-fit: contain;
+    margin-top: 5%;
+}
+
+.column p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.beer_discription,
+.chocolate_discription {
+    width: 87%;
+    margin-left: 7%;
+    font-family: 'Kanit', Arial, sans-serif;
+}
+
+.body_spray_discription,
+.firework_discription {
+    width: 73%;
+    margin-left: 15%;
+    font-family: 'Kanit', Arial, sans-serif;
+}
+
+.redirect_page {
+    font-family: 'Kanit', Arial, sans-serif;
+    color: #5b951b;
+    text-decoration: none;
+}
+
+.redirect_page:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transition: text-decoration 0.2s;
+}

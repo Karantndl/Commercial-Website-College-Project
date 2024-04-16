@@ -1,0 +1,505 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.search_bar_beer {
+    width: 30%;
+    height: 60%;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 110%;
+    border-radius: 6px;
+}
+
+.first_div_beer{
+    width: 30%;
+    margin-left: 5%;
+}
+
+.beer_picture{
+    margin-left: 10%;
+    width: 90%;
+    height: auto;
+}
+
+.for_16{
+width: 5%;
+
+}
+
+.for_2_16 {
+    margin: 5%;
+    width: 120%;
+    font-size: 12px;
+    letter-spacing: .1px;
+    line-height: 16px;
+    font-weight: 600;
+    overflow: hidden;
+    background-color: rgb(241, 8, 0);
+    font-size: 10px;
+    color: white;
+    align-items: center;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.8;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.for_2_16:hover{
+    box-shadow: 5px 5px 10px 0 rgb(0, 0, 0 , 0.3);
+    cursor: pointer;
+}
+
+.row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* we can Adjust */
+    margin-left: 6%;
+    margin-right: 10%;
+}
+
+
+
+.Budweiser_div{
+    width: 100%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+ 
+}
+
+.Budweiser_discription{
+    margin-bottom: 5%;
+    font-size: 2vw;
+}
+
+.add_2{
+    border: none;
+    background-color:  #5b951b;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1vw;
+    
+   
+}
+
+.add_2:hover{
+    box-shadow: 5px 5px 10px 0 rgb(0, 0, 0 ,0.3);
+    opacity: 0.8;
+    transition: all 0.15s;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.favourite_2, .basket_2{
+    border-radius: 5px;
+    border: 2px solid #5b951b;
+    background-color: #5b951b;
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+.favourite_2:hover , .basket_2:hover{
+    box-shadow: 5px 5px 10px 0 rgb(0, 0, 0 ,0.3);
+    opacity: 0.8;
+    transition: all 0.15s;
+    cursor: pointer;
+    background-color: #5b951b;
+    color: white;
+    opacity: 0.8;
+}
+
+.button_div{
+    margin-left: 32%;
+    margin-right: 10%;
+}
+
+.add_2, .favourite_2, .basket_2{
+    width:13% ;
+    height: 40px;
+    font-size: 100%;
+    margin-right: 1%;
+
+}
+
+.add_2:active, .favourite_2:active, .basket_2:active{
+    opacity: 0.6;
+}
+
+.favourite_2, .basket_2{
+    width: 21%;
+
+}
+
+
+.button_div_2{
+    padding-left: 5%;
+}
+
+
+
+
+.favourite_2:hover i.fa-heart {
+    transition: all 0.15s;
+    color: red !important; }
+    
+    
+    .favourite_2 i.fa-heart {
+        animation-play-state: paused; /* Set the initial state to paused */
+    }
+    
+    .favourite_2:hover i.fa-heart {
+        animation-play-state: running; /* heart running when hover */
+        transition: all 0.15s;
+    }
+    
+    @keyframes heartbeat {
+        0% {
+            transform: scale(1);
+        }
+        100% {
+            transform: scale(1.1);
+        }
+    }
+    
+    .favourite_2:active i.fa-heart{
+        animation-play-state: paused; /* Set the initial state to paused */
+    }
+
+.divider{
+    width: 57.5%;
+    margin-left: 4;
+}
+
+
+
+
+.beer_list{
+    width: 18.5%;
+    border: 1px solid #ccc;
+    
+}
+
+    .title{
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 #f6f6f6;
+    position: sticky;
+    top: 1px;
+    z-index: 1;
+    text-align: center;
+    }
+
+    .title_description{
+    font-size: 18px;
+    letter-spacing: .2px;
+    line-height: 24px;
+    font-weight: 400;
+    backdrop-filter: blur(5px);
+    padding: 16px;
+    background: hsla(0,0%,98%,.85);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    }
+
+    .main_container_for_beer{
+    display: flex;
+    align-items: flex-start;
+    padding: 18px 12px 12px;
+    border-bottom: 1px solid #ccc;
+    }
+
+
+    .img_div{
+    width: 100%;
+    }
+
+    .sub_beer{
+    max-width: 100%;
+    height: 60%;
+    object-fit: contain;
+}
+
+
+.fa-heart{
+    color: rgb(26, 26, 26);
+    transition: all 0.15s;
+}
+.fa-heart:hover{
+    cursor: pointer;
+}
+
+.fa-heart:active{
+    color: rgb(253, 0, 0);
+}
+
+.list_fav{
+    margin-top: 2%;
+    margin-left: 80%;
+    font-size: 30px;
+    display: flex;
+    margin-left: 64px;
+    margin-top: 2rem;
+}
+
+h3{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.costing{
+    font-size: 17px;
+    margin-bottom: 3%;
+}
+
+.listadd{
+    height: 100%;
+}
+
+.list_add{
+    font-weight: bold;
+    background-color: #5b951b;
+    border: none;
+    border-radius: 3px;
+    width: 68%;
+    height: 26px;
+    transition: all 0.15s;
+    margin-top: 7%;
+    cursor: pointer;
+}
+
+.list_add:hover{
+    box-shadow: 5px 5px 10px  rgb(0, 0, 0, 0.3);
+    opacity: 0.8;
+    color: white;
+}
+
+.list_add:active{
+    opacity: 0.7;
+}
+
+/* second beer add button padding adjustment */
+
+.listadd_heni{
+    height: 100%;
+}
+
+.list_add_heni{
+    font-weight: bold;
+    background-color: #5b951b;
+    border: none;
+    border-radius: 3px;
+    width: 68%;
+    height: 26px;
+    transition: all 0.15s;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+
+
+.list_add_heni:hover{
+    box-shadow: 5px 5px 10px  rgb(0, 0, 0, 0.3);
+    opacity: 0.8;
+    color: white;
+}
+
+/* second beer add button padding adjustment */
+.listadd_16{
+    height: 100%;
+}
+
+.list_add_16{
+    font-weight: bold;
+    background-color: #5b951b;
+    border: none;
+    border-radius: 3px;
+    width: 68%;
+    height: 26px;
+    transition: all 0.15s;
+    margin-top: 37%;
+    cursor: pointer;
+}
+
+.list_add_16:active{
+    opacity: 0.7;
+}
+
+.list_add_16:hover{
+    box-shadow: 5px 5px 10px  rgb(0, 0, 0, 0.3);
+    opacity: 0.8;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    margin-left: 13%;
+    margin-right: 10%;
+  }
+  
+  .main_description {
+    width: 75%; /* Adjust as needed */
+    
+  }
+
+.btn_description{
+    font-size: 1.5em;
+    margin-right: 20%;
+    border: none;
+    background-color: #ffffff;
+    border-bottom: 2px solid #5b951b;
+    cursor: pointer;
+    padding-right: 170px;
+    
+}
+
+.btn_review{
+    font-size: 1.5em;
+    border: none;
+    background-color: #ffffff;
+    border-bottom: 2px solid #5b951b;
+    cursor: pointer;
+    padding-left: 190%;
+    justify-content: left;
+   transition: all 1.5ms;
+
+}
+
+.btn_description:hover, .btn_review:hover{
+    background-color: #ececec;
+}
+
+.bnt_div{
+    display:flex;
+}
+
+
+.nutrition_value{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .net_content, .allergy_advice, .Ingredients{
+    letter-spacing: 1px;
+    line-height: 16px;
+    font-weight: 400;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    letter-spacing: .2px;
+    width: 48%;
+}
+
+.millilitres, .barley, .Water{
+    letter-spacing: 1px;
+    line-height: 16px;
+    font-weight: 400;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #f3f1f1;
+    letter-spacing: .2px;
+    width: 48%;
+}
+
+.nutritional{
+    letter-spacing: 1px;
+    line-height: 16px;
+    font-weight: 400;
+    padding-top: 24px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 12px;
+    border-bottom: 1px solid #f3f1f1;
+    letter-spacing: .2px;
+    width: 48%;
+}
+
+
+
+.nutritional_title{
+    justify-content: space-between;
+    display: flex;
+    background-color: #eee;
+    letter-spacing: 1px;
+    line-height: 16px;
+    font-weight: 400;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.calories_row{
+    display: table-cell;
+    justify-content: space-between;
+    display: flex;
+    letter-spacing: .1px;
+    line-height: 16px;
+    font-weight: 400;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.fat_nutritional, .Carbohydrates, .protein, .salt{
+    display: table-cell;
+    border-top: 1px solid #f3f1f1;
+    justify-content: space-between;
+    display: flex;
+    letter-spacing: .1px;
+    line-height: 16px;
+    font-weight: 400;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.fat{
+    margin-left: 77%;
+}
+
+.salt_0g{
+    margin-left: 5%;
+}
+
+.saturates, .sugars{
+    display: table-cell;
+    justify-content: space-between;
+    display: flex;
+    letter-spacing: .1px;
+    line-height: 16px;
+    font-weight: 400;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+   
+.salt{
+    border-bottom: 1px solid #ccc;
+}
+
+.saturates_gram{
+    padding-right: 70px;
+}
+
+.sugars_gram{
+    padding-right: 3.5rem;
+}
+.Carbohydrates_gram{
+    padding-right: 3rem;
+}
+
+.protein, .salt{
+    padding-left: 1rem;
+}

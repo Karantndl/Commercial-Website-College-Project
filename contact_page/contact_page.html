@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>beers - Brothers Cash and Carry</title>
+    <link rel="stylesheet" href="../first_page/first_page.css" />
+    <link rel="stylesheet" href="../contact_page/conatact_page.css" />
+    <script src="../contact_page/contact_paga.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script type="text/javascript">
+      function checkform() {
+        var firstName = document.getElementById("fname").value.trim();
+        var surName = document.getElementById("sname").value.trim();
+        var contactEmail = document
+          .getElementById("contact_email")
+          .value.trim();
+        var Subject = document.getElementById("subject").value.trim();
+        var Message = document.getElementById("message_box").value.trim();
+
+        if (firstName === "") {
+          alert("You must enter your first name");
+          document.getElementById("fname").focus();
+          return false;
+        }
+
+        if (surName === "") {
+          alert("You must enter your Surname");
+          document.getElementById("sname").focus();
+          return false;
+        }
+
+        if (contactEmail === "") {
+          alert("You must enter your Email Address");
+          document.getElementById("contact_email").focus();
+          return false;
+        }
+
+        if (Subject === "") {
+          alert("You must enter Subject");
+          document.getElementById("subject").focus();
+          return false;
+        }
+
+        if (Message === "") {
+          alert("Please add some description.");
+          document.getElementById("message_box").focus();
+          return false;
+        }
+
+        alert("Thank you for your queries.");
+        return true;
+      }
+    </script>
+  </head>
+
+  <body>
+    <!-- navigation section for button -->
+    <nav class="nav_bar">
+      <div class="navigation_div">
+        <a href="../first_page/first_page.html"
+          ><img
+            class="brand_logo"
+            src="/first_page/first_page_pic/logo_pic.jpg"
+            alt=""
+        /></a>
+        <input
+          class="search_bar_contact"
+          type="text"
+          placeholder="Search Bar"
+        />
+        <button class="contact_us">contact Us</button>
+        <button class="register">Register</button>
+        <button class="sign_in">Sign in</button>
+      </div>
+    </nav>
+    <!-- --------------------------------------------------------------------- -->
+
+    <div class="main_container">
+      <div class="contact_column">
+        <p class="contact_title">Contact</p>
+        <p class="contact_information">Contact Information Section</p>
+      </div>
+
+      <!-- --------------------------------------------------------------------- -->
+
+      <div class="contact_column">
+        <p class="contect_infor">Brother Cash and Carry</p>
+        <p class="contect_infor">
+          Address: 163 Green lane road, leicester city
+        </p>
+        <p class="contect_infor">
+          Phone:
+          <a class="contect_infor" href="tel:+1234567890">+123-456-7890</a>
+        </p>
+        <p class="contect_infor">
+          Email:<a
+            class="contect_infor"
+            href="mailto: info@brothercashandcarry.com"
+          >
+            info@brothercashandcarry.com</a
+          >
+        </p>
+      </div>
+      <br />
+
+      <!-- --------------------------------------------------------------------- -->
+
+      <div class="contact_column">
+        <p class="enquire_form_section">Enquiry Form Section</p>
+
+        <!-- JS not workig check this code again (action)-->
+
+        <form name="info" method="get">
+          <label for="fname">First Name:</label>
+          <input class="first_name_input" type="text" id="fname" name="fname" />
+          <br />
+
+          <label for="sname">Surname</label>
+          <input class="surname_input" type="text" name="sname" id="sname" />
+          <br />
+
+          <label for="contact_email">Email:</label>
+          <input
+            class="email_input"
+            type="email"
+            name="contact_email"
+            id="contact_email"
+          />
+          <br />
+
+          <label for="subject">Subject:</label>
+          <input
+            class="subject_input"
+            type="text"
+            name="subject"
+            id="subject"
+          />
+          <br />
+
+          <label for="Message">Message:</label>
+          <br />
+          <textarea
+            id="message_box"
+            name="message"
+            rows="4"
+            cols="50"
+          ></textarea
+          ><br />
+
+          <input
+            for="submit"
+            id="submit_button"
+            type="submit"
+            value="Submit it now!!"
+            onclick="return checkform();"
+          />
+        </form>
+      </div>
+      <!-- --------------------------------------------------------------------- -->
+    </div>
+
+    <div class="map_container">
+      <a
+        class="get_direction"
+        href="https://maps.app.goo.gl/69YVmy2uKdjkWccLA"
+        target="_blank"
+      >
+        <p class="get_direction">Get direction</p></a
+      >
+      <iframe
+        class="map_of_brothers"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2421.226011087806!2d-1.103222923046687!3d52.63782962749878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48776132c794fa19%3A0xc8a6ae6c0925fcef!2sBrothers%20cash%20%26%20carry!5e0!3m2!1sen!2suk!4v1701650009770!5m2!1sen!2suk"
+        width="80%"
+        height="500"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+  </body>
+</html>
