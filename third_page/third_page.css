@@ -11,12 +11,12 @@ body {
     border-radius: 6px;
 }
 
-.first_div_beer{
+.main_product_div{
     width: 30%;
     margin-left: 5%;
 }
 
-.beer_picture{
+.chocolate_bundle_img{
     margin-left: 10%;
     width: 90%;
     height: auto;
@@ -63,14 +63,14 @@ width: 5%;
 
 
 
-.Budweiser_div{
+.main_title_div{
     width: 100%;
     margin-left: 5%;
     margin-bottom: 5%;
  
 }
 
-.Budweiser_discription{
+.combo_choco_title{
     margin-bottom: 5%;
     font-size: 2vw;
 }
@@ -178,7 +178,7 @@ width: 5%;
 
 
 
-.beer_list{
+.Sub_chocolate_list{
     width: 18.5%;
     border: 1px solid #ccc;
     
@@ -205,7 +205,7 @@ width: 5%;
     border-top-right-radius: 4px;
     }
 
-    .main_container_for_beer{
+    .main_container_for_sub_chocolate{
     display: flex;
     align-items: flex-start;
     padding: 18px 12px 12px;
@@ -217,7 +217,7 @@ width: 5%;
     width: 100%;
     }
 
-    .sub_beer{
+    .sub_chocolate_img{
     max-width: 100%;
     height: 60%;
     object-fit: contain;
